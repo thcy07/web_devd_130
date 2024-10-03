@@ -16,3 +16,10 @@ img{
     width: 300px;
 }
 
+#active{
+    background-color: bisque;
+    color: black;
+}
+.blue{
+    background-color: bisque;
+}
