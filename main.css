@@ -1,19 +1,48 @@
 body{
     background-color: rgb(244, 182, 111);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav, footer{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    text-decoration: none;
+}
+
 a{
-    color: white;
+    color: black;
     padding: 25px;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+a:hover{
+    background-color: rgb(244, 182, 111);
+    color: white;
+}
+
 h1{
-   text-align: center; 
+   text-align: center;
    font-family: 'Times New Roman', Times, serif;
 
 } 
+
 img{
     width: 300px;
+    display: block;
+    margin: 0 auto;
+    /* 0 is the space up and down, 
+    auto is for the space on the left and right*/
 }
 
 #active{
@@ -22,4 +51,20 @@ img{
 }
 .blue{
     background-color: bisque;
+}
+
+
+p a{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.25em;
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
+
+footer p {
+    color: black;
 }
