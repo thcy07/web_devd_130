@@ -1,0 +1,99 @@
+body{
+    background-color: #891c1c;
+    font-family: "Merriweather";
+    color: #f6ead4;
+}
+  
+header{
+    background-color: #f6ead4;
+}
+
+.logo{
+    width: 80px;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    background-color: #891c1c;
+    color: #f6ead4;
+
+}
+
+.book{
+    background-color:  #891c1c;
+    color: #f6ead4;
+    text-decoration: none;
+
+}
+.book:hover{
+    background-color:  #f6ead4;
+    color: #a80c0c;
+}
+
+#hero_msg h1{
+    text-align: center;
+}
+
+#hero_msg h4{
+    text-align: center;
+}
+
+.button_box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+    background-color: #f6ead4;
+}
+
+.join{
+    background-color: #f6ead4;
+    color: #a80c0c;
+    text-decoration: none;
+}
+.join:hover{
+    background-color: #a80c0c;
+    color: #f6ead4;
+}
+
+.msg {
+    background-color:#f6ead4;
+    color: #a80c0c;
+}
+
+footer{
+    text-align: center;
+    background-color: #f6ead4;  
+    color: #a80c0c;
+}
+
+footer p a:hover{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+footer a{
+    color: #a80c0c;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: #a80c0c;
+    color: #f6ead4;
+}
+.icon {
+    width: 80px;
+}
