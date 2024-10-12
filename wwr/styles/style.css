@@ -16,13 +16,17 @@ header{
     margin: 0 auto;
 }
 
-nav a{
+
+nav {
     text-align: center;
-    color: black;
+    color: #891c1c;
+    text-decoration: none;  
+    }
+
+nav a {
+    color: #891c1c;
     text-decoration: none;
-
 }
-
 nav a:hover{
     background-color: #891c1c;
     color: #f6ead4;
