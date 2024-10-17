@@ -153,19 +153,28 @@ footer p a:hover{
     font-size: 1.2em;
     text-decoration: underline;
 }
-footer a{
+footer .footer_link{
     color: #a80c0c;
     text-decoration: none;
-}
-footer a:hover{
-    background-color: #a80c0c;
-    color: #f6ead4;
     padding: 10px 20px;
 
+}
+footer .footer_link:hover{
+    background-color: #a80c0c;
+    color: #f6ead4;
+    border-radius: 5px;
 
 }
-footer .social img{
+footer .social img {
     padding-top: 15px;
+}
+
+footer .social a:hover{
+    background-color: none;
+}
+
+.social a {
+    text-decoration: none;
 }
 
 .icon {
