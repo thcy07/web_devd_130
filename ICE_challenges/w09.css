@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    background-color: black;
+    font-family: "Merriweather", "Baskerville", 'Times New Roman', serif ;
+}
+
+.content{
+    background-color: azure;
+}
+
+h4, h1, p{
+    padding: 10px; 
+
+}
+.content image{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: steelblue;
+    
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.bottom #p2{
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
