@@ -4,87 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wizard Wiz|Home</title>
+    <link href = "styles/main.css" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class = "logo" src = "images/logo_2.jpg" alt = "Wizard Wiz Logo">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="character_profile.html">Character Profiles</a>
-                <a href="fan_theories.html">Fan Theories</a>
-                <a href="contact_us.html">Contact Us</a>
-            </nav>
+    <div id = "content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class = "logo" src = "images/logo_2.jpg" alt = "Wizard Wiz Logo">
+                </a>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="character_profile.html">Character Profiles</a>
+                    <a href="fan_theories.html">Fan Theories</a>
+                    <a href="contact_us.html">Contact Us</a>
+                </nav>
         </header>
         <div id = "hero">
             <div id = "hero_box">
-                <img id= hero_img src="images/Soly Mosesc Hogwarts.jpg" alt="People enjoying rafting">
-                <img id= hero_img src="images/Ralph_hogwarts.jpg" alt="People enjoying rafting">
+                <div class="image-slideshow">
+                    <div class="image fade">
+                      <img id="hero_img" src="images/Soly Mosesc Hogwarts.jpg" alt="Hogwarts">
+                    </div>
+                    <div class="image fade">
+                      <img id="hero_img" src="images/Ralph_hogwarts.jpg" alt="Hogwarts">
+                    </div>
+                    <div class="image fade">
+                      <img id="hero_img" src="images/Hogwarts.jpg" alt="Hogwarts">
+                    </div>
+                </div>                  
+                <script src="styles/main.js"></script>
             </div>
+
             <section id = "hero_msg">
                 <h1 class = "home_title"> Welcome to the Harry Potter facts page.</h1>
                 <h4>If you're here it means you are looking to learn, know and join the 
                     wizards of Hogwarts on a crazy ride of friendship, love and battle against Evil.</h4>
-                <!-- <div class='button_box'>
-                    <a class='book' href="contactus.html">Book Now</a>
-                </div> -->
+                <div class='button_box'>
+                    <a class='button' href="spells.html">Discover Magic!</a>
+                </div>
             </section>
         </div>
-        <main class = "home_grid">
-            <section class = "character_card">
+
+        <main class = "home_grid">    
+            <a href="movies.html" class = "movies_card">
+                <img class = "movie_img" src="images/Harry_Potter_and_the_Philosopher's_Stone_banner.jpg" alt="Philosopher's Stone">
+                <h2 id = "movies_card_msg">Movies</h2>
+                <div class = "movies_msg">
+                    <h2> Discover the Movies</h2>
+                    <p> Click here to view a quick preview of all the movies!!
+                    </p>
+                </div>  
+            </a>
+            <a href="character_profile.html" class = "character_card">
                 <img class = "Characters" src="images/Hermione_Granger_poster.jpg" alt="Hermoine Granger">
-                <h2>Characters</h2>
-            </section> 
-            <section class = "character_msg">
-                <h2> Discover the Characters</h2>
-                <p> Click here to view a quick preview of all the characters!!
-                </p>
-                <!-- <a class='join' href="rivers.html">Join Us</a> -->
-            </section>     
-            <section class = "movies_card">
-                <img class = "Movie_img" src="images/Harry_Potter_and_the_Philosopher's_Stone_banner.jpg" alt="Philosopher's Stone">
-                
-                <h2>Movies</h2>
-            </section>
-            <section class = "movies_msg">
-                <h2> Discover the Movies</h2>
-                <p> Click here to view a quick preview of all the movies!!
-                </p>
-                <!-- <a class='join' href="rivers.html">Join Us</a> -->
-            </section>     
-            <section class = "fan_theories_card">
+                <h2 id = "character_card_msg">Characters</h2>
+                <div class = "character_msg">
+                    <h2> Discover the Characters</h2>
+                    <p> Click here to view a quick preview of all the characters!!
+                    </p>
+                </div> 
+            </a> 
+            <a a href="fan_theories.html" class = "fan_theories_card">
                 <img class = "Fan_Theories" src="images/rsz_7_horcruxs.jpg" alt="Rafting boat">
+                <h2 id = "fan_theories_msg">Fan Theories</h2>
+                <div class = "fan_theories_msg">
+                    <h2> Peak into the Fan Theories</h2>
+                    <p> Click to view a quick preview od the wild Fan Theories out there!!</p>
+                </div>    
+            </a> 
             
-                <h2>Fan Theories</h2>
-            </section>  
-            <section class = "fan_theories_msg">
-                <h2> Peak into the Fan Theories</h2>
-                <p> Click here to view a quick preview od the wild Fan Theories out there!!
-                </p>
-                <!-- <a class='join' href="rivers.html">Join Us</a> -->
-            </section>    
+            <div class="homepage_txt">
+                <h1>Welcome to the Wizarding World of Harry Potter Fans!</h1>
+
+                <h2>Step through Platform 9¾ and embark on a magical journey through the enchanting world of Harry Potter! This is your ultimate destination to explore everything about the beloved franchise.</h2>
+
+                <h3> 🪄 Discover the Movies: Relive the magic of Hogwarts with behind-the-scenes details, memorable moments, and spellbinding highlights from all the Harry Potter films.
+
+                ✨ Meet the Characters: From Harry, Hermione, and Ron to Dumbledore, Snape, and beyond, dive deep into the profiles of your favorite witches, wizards, and magical creatures.
+
+                💡 Explore Fan Theories: Uncover the most fascinating, mind-blowing, and downright wild fan theories that make the wizarding world even more mysterious and magical.
+
+                Whether you're a seasoned Potterhead or a newcomer to the series, there’s something here for everyone. Grab your wand, summon your inner wizard, and let’s keep the magic alive! </h3>
+
+                <H2>Mischief Managed!</H2>
+            </div>
         </main>
         <footer>
             <a id="logo_link" href="index.html">
                 <img class = "logo" src = "images/logo_2.jpg" alt = "Wizard Wiz Logo">
-                </a>
+            </a>
             <p> Wizard Wiz &copy; 2024 - Cameron Samson </p>
             <p> <a class="footer_link" href = "site_plan.html">Site Plan </a></p>
             <p> <a class="footer_link" href = "contactus.html">Contact Us </a></p>
             <div class = "social">
             
                 <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
+                    <img src="images/fb_logo.png" alt="fb icon">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="intsgram icon">
+                    <img src="images/ig_logo.png" alt="instagram icon">
                 </a>
                 <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
+                    <img src="images/x_logo.png" alt="twitter icon">
                 </a>
             </div>
         </footer>
-    
+    </div>
 </body>
 </html>
