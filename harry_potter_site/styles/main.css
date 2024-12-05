@@ -294,9 +294,7 @@ footer{
     
 }
 
-footer p a:hover{
-    font-size: 1.2em;
-}
+
 footer .footer_link{
     color: #a80c0c;
     text-decoration: none;
