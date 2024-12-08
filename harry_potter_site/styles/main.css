@@ -282,10 +282,11 @@ main section img {
     align-self: center;
 
 }
+
 footer{
     text-align: center;
-    background-color: #f6ead4;  
-    color: #a80c0c;
+    background-color: #D3AD28;  
+    color: #143141;
     font-family: "Merriweather";
     padding: 2px 50px;
     display: flex;
@@ -296,7 +297,7 @@ footer{
 
 
 footer .footer_link{
-    color: #a80c0c;
+    color: #143141;
     text-decoration: none;
     padding: 10px 20px;
 
@@ -312,7 +313,7 @@ footer .footer_link{
     align-self: center;
 }
 footer .footer_link:hover{
-    background-color: #a80c0c;
+    background-color:  #5B1B1B;
     color: #f6ead4;
     border-radius: 5px;
 
@@ -324,7 +325,6 @@ footer .social img {
 .social a {
     text-decoration: none;
 }
-
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
